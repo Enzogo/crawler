@@ -103,8 +103,8 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>compile</id>
-                        <phase>compile</phase>
+                        <id>checkstyle</id>
+                        <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
                         </goals>
